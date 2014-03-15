@@ -44,7 +44,7 @@
                 android:layout_width="wrap_content"
                 android:text="@string/user_info_school"/>
             <EditText
-                android:id="@+id/school"
+                android:id="@+id/edt_school"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent" />
         </LinearLayout>
@@ -57,7 +57,7 @@
                 android:layout_width="wrap_content"
                 android:text="@string/user_info_class"/>
             <EditText
-                android:id="@+id/class"
+                android:id="@+id/edt_class"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent" />
         </LinearLayout>
@@ -67,12 +67,20 @@
             android:paddingTop="5dp"
             android:text="@string/user_info_select_role"/>
         <CheckedTextView
+            android:id="@+id/identity_student"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
+            android:padding="5dp"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:background="@drawable/textview_selector"
             android:text="学生"/>
         <CheckedTextView
+            android:id="@+id/identity_teacher"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
+            android:padding="5dp"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:background="@drawable/textview_selector"
             android:text="老师"/>
 
     </LinearLayout>
