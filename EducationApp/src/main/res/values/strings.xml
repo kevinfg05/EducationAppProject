@@ -5,4 +5,10 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <string name="activity_userinfo_label">个人信息</string>
+    <string name="user_info_set_icon">请设置头像</string>
+    <string name="user_info_nick_name">昵称:</string>
+    <string name="user_info_school">学校:</string>
+    <string name="user_info_class">班级:</string>
+    <string name="user_info_select_role">选择您的身份:</string>
 </resources>

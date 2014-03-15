@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/user_info_set_icon"/>
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_launcher"/>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/user_info_nick_name"/>
+            <EditText
+                android:id="@+id/nick_name"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/user_info_school"/>
+            <EditText
+                android:id="@+id/school"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/user_info_class"/>
+            <EditText
+                android:id="@+id/class"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingTop="5dp"
+            android:text="@string/user_info_select_role"/>
+        <CheckedTextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="学生"/>
+        <CheckedTextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="老师"/>
+
+    </LinearLayout>
+</ScrollView>
