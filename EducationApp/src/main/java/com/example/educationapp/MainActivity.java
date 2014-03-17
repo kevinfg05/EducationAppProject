@@ -11,24 +11,11 @@ import com.actionbarsherlock.app.SherlockActivity;
 import android.os.Build;
 import android.widget.Button;
 
-public class MainActivity extends SherlockActivity implements View.OnClickListener {
+public class MainActivity extends SherlockActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button userinfoButton = (Button)findViewById(R.id.btn_userinfo);
-        userinfoButton.setOnClickListener(this);
-    }
-
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.btn_userinfo:
-                Intent intent = new Intent();
-                intent.setClass(this, UserInfoActivity.class);
-                startActivity(intent);
-                break;
-        }
     }
 }

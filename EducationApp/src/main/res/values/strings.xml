@@ -11,4 +11,10 @@
     <string name="user_info_school">学校:</string>
     <string name="user_info_class">班级:</string>
     <string name="user_info_select_role">选择您的身份:</string>
+    <string name="cut_image_button_use">使用</string>
+
+    <string name="bottom_tab_work">收发作业</string>
+    <string name="bottom_tab_questions">题库</string>
+    <string name="bottom_tab_contacts">通讯录</string>
+    <string name="bottom_tab_account">我的账号</string>
 </resources>
